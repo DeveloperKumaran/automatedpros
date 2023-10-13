@@ -1,0 +1,137 @@
+ 
+body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    transition: background 0.3s;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    padding: 0;
+  }
+
+
+ 
+  .meta-container{
+    margin-top: 5rem;
+    justify-content: center;
+    text-align: center;
+    background: rgb(151,195,34);
+    background: linear-gradient(260deg, rgba(151,195,34,1) 0%, rgba(82,155,86,1) 49%, rgba(26,115,21,1) 100%);
+    padding: 5rem;
+    border-radius: 20px;
+    box-shadow: 10px 15px 15px 5px rgb(45, 44, 44);
+  }
+
+  .connect-meta {
+    background-color: black;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #6cd770;
+    height: 3rem;
+    width: 12rem;
+    background-image: url('../src/meta-logo.png'); /* Update the URL to the actual location of your image */
+    background-repeat: no-repeat;
+    background-size: 2rem 2rem; /* Adjust the size of the logo */
+    background-position: 1rem center; /* Adjust the position of the logo */
+    padding-left: 40px;
+    border:1px solid black;
+    box-shadow: 2px 5px 5px 1px rgb(45, 44, 44);
+     /* Adjust the left padding to accommodate the logo */
+    /* Add any other desired button styling here */
+  }
+
+  .display-time{
+    background-color: black;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+    color: #6cd770;
+    height: 2rem;
+    width: 8rem;
+    border:1px solid black;
+    box-shadow: 2px 5px 5px 1px rgb(45, 44, 44);
+    
+  }
+
+  .address, .balance{
+    font-size: 1rem;
+    text-align: center;
+  }
+
+
+  .time{
+    color: rgba(225, 225, 37, 0.759);
+  }
+
+  .render{
+    color: rgba(251, 238, 0, 0.759);
+  }
+
+
+/* App.css */
+/*body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgb(151,195,34);
+  background: linear-gradient(260deg, rgb(109, 141, 21) 0%, rgba(82,155,86,1) 49%, rgb(28, 128, 22) 100%);
+  
+}*/
+
+
+/*
+body.green {
+  background: linear-gradient(to right, #7FFF00, #32CD32);
+}
+
+body.dark-green {
+  background: linear-gradient(to right, #008000, #006400);
+}*/
+
+/*
+  .green {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  */
+
+  
+  
+  /* .dark-green{
+    background: linear-gradient(to right, #008000, #006400);
+    height: 100vh;
+    
+  }
+  */
+
+  
+   
+  /*
+  .App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    transition: background 0.3s;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+  }*/
